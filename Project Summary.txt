@@ -1,0 +1,4 @@
+## Project Summary
+This project demonstrates how a legacy monolithic e-commerce system can be advanced using Django and basic DevOps practices. 
+The PoC improves modularity, maintainability, and deployment reliability while providing core website pages (Home, Products, About, Contact). 
+It serves as a foundation for future scaling, automation, and cloud deployment.
