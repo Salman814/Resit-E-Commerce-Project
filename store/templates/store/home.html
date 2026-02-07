@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block title %}Home - E-Commerce Store{% endblock %}
+
+{% block content %}
+
+<!-- Hero Section -->
+<div class="hero d-flex align-items-center justify-content-center">
+    <div class="text-center text-white">
+        <h1 class="display-4 fw-bold">Premium Products. Best Prices.</h1>
+        <p class="lead mb-4">Your trusted online store for quality and reliability.</p>
+        <a href="/products/" class="btn btn-primary btn-lg px-4">Start Shopping</a>
+    </div>
+</div>
+
+<!-- Features Section -->
+<div class="container my-5">
+    <h2 class="text-center mb-4 fw-bold">Why Choose Us?</h2>
+
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="feature-icon">💎</div>
+            <h5 class="mt-3">Top-Notch Quality</h5>
+            <p>Every product is hand-picked and thoroughly checked for durability.</p>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="feature-icon">⚡</div>
+            <h5 class="mt-3">Fast Delivery</h5>
+            <p>We ensure your products reach you safely within 48 hours.</p>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="feature-icon">🔐</div>
+            <h5 class="mt-3">Secure Checkout</h5>
+            <p>Multiple safe payment methods with complete data protection.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Popular Products (Static for now → dynamic later) -->
+<div class="container my-5">
+    <h2 class="text-center mb-4 fw-bold">Popular Products</h2>
+
+    <div class="row">
+<div class="col-md-4 mb-4">
+    <div class="card shadow-sm">
+        <img src="https://images.unsplash.com/photo-1512499617640-c2f999098c01"
+             class="card-img-top" alt="Product">
+        <div class="card-body text-center">
+            <h5 class="card-title">Sample Product</h5>
+            <p class="card-text">High quality and best price.</p>
+            <a href="/products/" class="btn btn-primary btn-sm">View Details</a>
+        </div>
+    </div>
+</div>
+
+
+        <!-- Product Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+                     class="card-img-top" alt="Product">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Trending Item</h5>
+                    <p class="card-text">Popular among our customers.</p>
+                    <a href="/products/" class="btn btn-primary btn-sm">View Details</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Card -->
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
+                     class="card-img-top" alt="Product">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Best Seller</h5>
+                    <p class="card-text">Highly rated by our buyers.</p>
+                    <a href="/products/" class="btn btn-primary btn-sm">View Details</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
